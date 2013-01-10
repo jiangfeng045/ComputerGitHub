@@ -11,7 +11,10 @@
 @interface kitakyuViewController ()
 
 @end
+
 @implementation kitakyuViewController
+
+@synthesize model;
 
 - (void)viewDidLoad
 {
@@ -137,6 +140,12 @@
     }
 }
 
+
+
+
+
+
+// リセット関数
 - (IBAction)ac:(id)sender {
     [[self label] setText:@"0"];
     t=0;
@@ -150,6 +159,7 @@
     d=0;
 }
 
+//足し算関数  a=1と設定する
 - (IBAction)jia:(id)sender {
     if(n==0&&a==0){
         x2=x1;
@@ -175,6 +185,7 @@
     d=0;
 }
 
+//引き算関数 b=1と設定する
 - (IBAction)jian:(id)sender {
     if(n==0){
         x2=x1;
@@ -191,6 +202,7 @@
     d=0;
 }
 
+//かけ算関数 c=1と設定する
 - (IBAction)cheng:(id)sender {
     
     if(n==0){
@@ -208,6 +220,7 @@
     d=0;
 }
 
+//割り算関数 d=1と設定する
 - (IBAction)chu:(id)sender {
     if(n==0){
         x2=x1;
@@ -224,12 +237,15 @@
     d=1;
 }
 
+//正負の変更関数
 - (IBAction)zhengfu:(id)sender {
     x1=-x1;
         [[self label] setText:[NSString stringWithFormat:@"%f",x1]];
     
 }
 
+
+//イコール　関数
 - (IBAction)dengyu:(id)sender {
     
     
@@ -263,6 +279,8 @@
 
 }
 
+
+//小数点関数
 - (IBAction)dian:(id)sender {
     if(t==0)
         t=1;

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "kitakyuState.h"
 
 @interface kitakyuViewController : UIViewController{
     double x1;
@@ -18,7 +19,12 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
-@property enum {x1,enzan,kekka} state;
+@property (readonly) kitakyuState* model;
+
+-(void)setTextToX1;
+-(void)setTextToX2;
+
+@property enum {x1,x2,ans} state;
 
 - (IBAction)push0:(id)sender;
 

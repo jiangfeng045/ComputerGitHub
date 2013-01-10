@@ -23,6 +23,7 @@
 		0C3E4D36164B6C2100562F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3E4D11164B6C2000562F13 /* Foundation.framework */; };
 		0C3E4D3E164B6C2100562F13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E4D3C164B6C2100562F13 /* InfoPlist.strings */; };
 		0C3E4D41164B6C2100562F13 /* computerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E4D40164B6C2100562F13 /* computerTests.m */; };
+		0CC2B4E3169E7F0A00E08684 /* kitakyuState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2B4E2169E7F0A00E08684 /* kitakyuState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		0C3E4D3D164B6C2100562F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C3E4D3F164B6C2100562F13 /* computerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = computerTests.h; sourceTree = "<group>"; };
 		0C3E4D40164B6C2100562F13 /* computerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = computerTests.m; sourceTree = "<group>"; };
+		0CC2B4E1169E7F0A00E08684 /* kitakyuState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kitakyuState.h; sourceTree = "<group>"; };
+		0CC2B4E2169E7F0A00E08684 /* kitakyuState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kitakyuState.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				0C3E4D1F164B6C2000562F13 /* kitakyuAppDelegate.m */,
 				0C3E4D27164B6C2100562F13 /* MainStoryboard.storyboard */,
 				0C3E4D2A164B6C2100562F13 /* kitakyuViewController.h */,
+				0CC2B4E1169E7F0A00E08684 /* kitakyuState.h */,
+				0CC2B4E2169E7F0A00E08684 /* kitakyuState.m */,
 				0C3E4D2B164B6C2100562F13 /* kitakyuViewController.m */,
 				0C3E4D16164B6C2000562F13 /* Supporting Files */,
 			);
@@ -274,6 +279,7 @@
 				0C3E4D1C164B6C2000562F13 /* main.m in Sources */,
 				0C3E4D20164B6C2000562F13 /* kitakyuAppDelegate.m in Sources */,
 				0C3E4D2C164B6C2100562F13 /* kitakyuViewController.m in Sources */,
+				0CC2B4E3169E7F0A00E08684 /* kitakyuState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
