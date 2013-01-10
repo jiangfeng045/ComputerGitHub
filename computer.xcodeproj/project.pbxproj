@@ -346,6 +346,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				New_Setting = "";
+				New_Setting1 = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -366,6 +368,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				New_Setting = "";
+				New_Setting1 = "";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -447,6 +451,7 @@
 				0C3E4D46164B6C2100562F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C3E4D47164B6C2100562F13 /* Build configuration list for PBXNativeTarget "computerTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +460,7 @@
 				0C3E4D49164B6C2100562F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
