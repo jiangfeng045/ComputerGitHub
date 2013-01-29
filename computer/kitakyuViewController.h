@@ -21,9 +21,6 @@
 
 @property (readonly) kitakyuState* model;
 
--(void)setTextToX1;
--(void)setTextToX2;
-
 @property enum {x1,x2,ans} state;
 
 - (IBAction)push0:(id)sender;
